@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "SamsungOne";
+    src: url(font/SamsungOne-400.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Samsung";
+    src: url(Font/samsungsharpsans-medium.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+  margin: 0;
+   padding: 0;
+   font-family: "Samsung", sans-serif;
+ }
+ nav {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+nav .wrapper {
+  position: relative;
+  max-width: 1300px;
+  padding: 0px 30px;
+  line-height: 70px;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 20px 0 0 0;
+}
+.wrapper .nav-links {
+  display: inline-flex;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5.5px 13px;
+  margin: 0 10px 0 0;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  font-family: "SamsungOne";
+}
+.nav-button{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 150px;
+
+  padding: 8px 15px;
+  color: #000;
+  font-size: 15px;
+  border-bottom: #000; 
+}
+.nav1{
+  border-bottom: 3px solid black;
+}
+.aboutAI{
+  margin-top: -50px;
+  margin-left: 100px;
+  font-weight: 15px;
+}
+.AI1{
+  color: rgb(13, 13, 126);
+}
+.AI2{
+  color: rgb(58, 52, 52);
+}
+#countdown {
+  display: flex;
+  color: #000;
+  padding: 20px;
+  margin-top: -60px;
+  margin-left: 900px;
+}
+.time-segment {
+  text-align: center;
+  margin: 0 10px;
+}
+.time-segment span {
+  font-size: 1.5rem; /* Larger font size for the numbers */
+  display: block;
+}
+.time-segment div {
+  font-size: 1rem; /* Smaller font size for the labels */
+}
+.content h1 {
+  color: #000;
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-weight: bold;
+}
+.content h4 {
+  color: #000;
+  font-size: 19px;
+  font-weight: 400;
+  position: absolute;
+  top: 52%;
+  left: 5%;
+  font-weight: bold;
+  margin-left: 10px;
+  font-family: "SamsungOne", arial, sans-serif;
+}
+
+.header-slider{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+
+.header-items{
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 300%; /* Adjust based on content */
+}
+
+.header-items img, .header-items video {
+    width: 33.333%; /* Adjust based on content */
+    flex-shrink: 0;
+    display: block; /* remove gaps between inline elements */
+
+}
+.header-slider a{
+  position: absolute;
+  top: 20%;
+  padding: 5vh 1vw;
+  background: #ffffff4f;
+  color: #0000007b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+.dev{
+  color: #000;
+  font-size: 18px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-top: 40px;
+  margin-left: 150px;
+
+}
+.aboutdev {
+  margin-left: 250px;
+  width: 200px;  /* Set the width of the box */
+  padding: 20px; /* Padding inside the box */
+  margin-top: 20px;
+  border: 2px solid #007aff; /* Black border around the box */
+  text-align: center; /* Center the text inside the box */
+  border-radius: 9px;
+}
+
+p.b1{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+  font-size:0.8rem;
+}
+p.b2{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+}
+.b3{
+  color:#007aff; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+  margin-left: 250px;
+  margin-top: 7px;
+
+}
+.dev1{
+  color: #000;
+  font-size: 18px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-top: 60px;
+  margin-left: 150px;
+
+}
+.aboutdev1 {
+  margin-left: 250px;
+  width: 200px;  /* Set the width of the box */
+  padding: 20px; /* Padding inside the box */
+  margin-top: 60px;
+  border: 2px solid #007aff; /* Black border around the box */
+  text-align: center; /* Center the text inside the box */
+  border-radius: 9px;
+}
+
+p.B1{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+  font-size:0.8rem;
+}
+p.B2{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+}
