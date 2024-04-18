@@ -215,7 +215,7 @@ p.b2{
   font-size: 18px;
   position: absolute;
   font-family: "SamsungOne", arial, sans-serif;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 150px;
 
 }
@@ -223,7 +223,7 @@ p.b2{
   margin-left: 250px;
   width: 200px;  /* Set the width of the box */
   padding: 20px; /* Padding inside the box */
-  margin-top: 60px;
+  margin-top: 40px;
   border: 2px solid #007aff; /* Black border around the box */
   text-align: center; /* Center the text inside the box */
   border-radius: 9px;
