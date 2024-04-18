@@ -65,6 +65,9 @@ nav .wrapper {
   font-size: 15px;
   border-bottom: #000; 
 }
+hr{
+  color: #333;
+}
 .nav1{
   border-bottom: 3px solid black;
 }
@@ -74,7 +77,7 @@ nav .wrapper {
   font-weight: 15px;
 }
 .AI1{
-  color: rgb(13, 13, 126);
+  color:  #007aff;
 }
 .AI2{
   color: rgb(58, 52, 52);
@@ -121,6 +124,9 @@ nav .wrapper {
   overflow: hidden;
   width: 100%;
   position: relative;
+}
+hr{
+  color: #333;
 }
 
 
@@ -191,6 +197,10 @@ button:hover {
   text-align: center; /* Center the text inside the box */
   border-radius: 9px;
 }
+hr{
+  color: #6e6767;
+}
+
 
 p.b1{
   text-align: left;
@@ -219,11 +229,11 @@ p.b2{
   margin-left: 150px;
 
 }
-.aboutdev1 {
+.aboutdev1{
   margin-left: 250px;
   width: 200px;  /* Set the width of the box */
   padding: 20px; /* Padding inside the box */
-  margin-top: 40px;
+  margin-top: 20px;
   border: 2px solid #007aff; /* Black border around the box */
   text-align: center; /* Center the text inside the box */
   border-radius: 9px;
@@ -240,3 +250,53 @@ p.B2{
   color: #000; /* Dark grey color for the text */
   font-size: 10px; /* Set font size */
 }
+.B3{
+  color:#000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+  margin-left: 260px;
+  margin-top: 7px;
+
+}
+.aboutdev2{
+  margin-left: 500px;
+  width: 200px;  /* Set the width of the box */
+  padding: 20px; /* Padding inside the box */
+  margin-top: 20px;
+  border: 1px solid  #aaaaaa; /* Black border around the box */
+  text-align: center; /* Center the text inside the box */
+  border-radius: 9px;
+}
+
+p.C1{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+  font-size:0.8rem;
+}
+p.C2{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+}
+.aboutdev3{
+  margin-left: 750px;
+  width: 200px;  /* Set the width of the box */
+  padding: 20px; /* Padding inside the box */
+  margin-top: 20px;
+  border: 1px solid #aaaaaa ; /* Black border around the box */
+  text-align: center; /* Center the text inside the box */
+  border-radius: 9px;
+}
+
+p.D1{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+  font-size:0.8rem;
+}
+p.D2{
+  text-align: left;
+  color: #000; /* Dark grey color for the text */
+  font-size: 10px; /* Set font size */
+}
+
