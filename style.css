@@ -1,21 +1,24 @@
 @font-face {
-    font-family: "SamsungOne";
-    src: url(font/SamsungOne-400.ttf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SamsungOne";
+  src: url(font/SamsungOne-400.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-    font-family: "Samsung";
-    src: url(Font/samsungsharpsans-medium.otf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Samsung";
+  src: url(Font/samsungsharpsans-medium.otf);
+  font-weight: normal;
+  font-style: normal;
 }
-*{
+
+* {
   margin: 0;
-   padding: 0;
-   font-family: "Samsung", sans-serif;
- }
- nav {
+  padding: 0;
+  font-family: "Samsung", sans-serif;
+}
+
+nav {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -36,9 +39,11 @@ nav .wrapper {
 .logo {
   padding: 20px 0 0 0;
 }
+
 .wrapper .nav-links {
   display: inline-flex;
 }
+
 .nav-links li {
   list-style: none;
 }
@@ -54,7 +59,8 @@ nav .wrapper {
   transition: all 0.5s ease;
   font-family: "SamsungOne";
 }
-.nav-button{
+
+.nav-button {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -63,26 +69,31 @@ nav .wrapper {
   padding: 8px 15px;
   color: #000;
   font-size: 15px;
-  border-bottom: #000; 
+  border-bottom: #000;
 }
 
-hr{
+hr {
   color: #fcf7f7;
 }
-.nav1{
+
+.nav1 {
   border-bottom: 3px solid black;
 }
-.aboutAI{
+
+.aboutAI {
   margin-top: -50px;
   margin-left: 100px;
   font-weight: 15px;
 }
-.AI1{
-  color:  #007aff;
+
+.AI1 {
+  color: #007aff;
 }
-.AI2{
+
+.AI2 {
   color: rgb(58, 52, 52);
 }
+
 #countdown {
   display: flex;
   color: #000;
@@ -90,17 +101,23 @@ hr{
   margin-top: -60px;
   margin-left: 900px;
 }
+
 .time-segment {
   text-align: center;
   margin: 0 10px;
 }
+
 .time-segment span {
-  font-size: 1.5rem; /* Larger font size for the numbers */
+  font-size: 1.5rem;
+  /* Larger font size for the numbers */
   display: block;
 }
+
 .time-segment div {
-  font-size: 1rem; /* Smaller font size for the labels */
+  font-size: 1rem;
+  /* Smaller font size for the labels */
 }
+
 .content h1 {
   color: #000;
   font-size: 30px;
@@ -109,6 +126,7 @@ hr{
   left: 5%;
   font-weight: bold;
 }
+
 .content h4 {
   color: #000;
   font-size: 19px;
@@ -121,30 +139,35 @@ hr{
   font-family: "SamsungOne", arial, sans-serif;
 }
 
-.header-slider{
+.header-slider {
   overflow: hidden;
   width: 100%;
   position: relative;
 }
 
-hr{
+hr {
   color: #333;
 }
 
 
-.header-items{
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 300%; /* Adjust based on content */
+.header-items {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 300%;
+  /* Adjust based on content */
 }
 
-.header-items img, .header-items video {
-    width: 33.333%; /* Adjust based on content */
-    flex-shrink: 0;
-    display: block; /* remove gaps between inline elements */
+.header-items img,
+.header-items video {
+  width: 33.333%;
+  /* Adjust based on content */
+  flex-shrink: 0;
+  display: block;
+  /* remove gaps between inline elements */
 
 }
-.header-slider a{
+
+.header-slider a {
   position: absolute;
   top: 20%;
   padding: 5vh 1vw;
@@ -155,6 +178,7 @@ hr{
   font-size: 18px;
   cursor: pointer;
 }
+
 button {
   position: absolute;
   top: 50%;
@@ -181,7 +205,8 @@ button:hover {
 #next {
   right: 10px;
 }
-.dev{
+
+.dev {
   color: #000;
   font-size: 14px;
   position: absolute;
@@ -190,45 +215,60 @@ button:hover {
   margin-left: 150px;
 
 }
+
 .aboutdev {
   margin-left: 250px;
-  width: 200px;  /* Set the width of the box */
-  padding: 20px; /* Padding inside the box */
+  width: 200px;
+  /* Set the width of the box */
+  padding: 20px;
+  /* Padding inside the box */
   margin-top: 20px;
-  border: 2px solid #007aff; /* Black border around the box */
-  text-align: center; /* Center the text inside the box */
+  border: 2px solid #007aff;
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
   border-radius: 9px;
 }
-hr{
+
+hr {
   color: #ffffff;
   margin-top: 25px;
 }
 
 
-p.b1{
+p.b1 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
-  font-size:0.8rem;
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
+  font-size: 0.8rem;
 }
-p.b2{
+
+p.b2 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
 }
-.b3{
-  color:#4e90d6; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
+
+.b3 {
+  color: #4e90d6;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
   margin-left: 250px;
   margin-top: 10px;
 
 }
-hr{
+
+hr {
   color: #eceaea;
   margin-top: 25px;
 }
 
-.dev1{
+.dev1 {
   color: #000;
   font-size: 14px;
   position: absolute;
@@ -237,100 +277,173 @@ hr{
   margin-left: 150px;
 
 }
-.aboutdev1{
+
+.aboutdev1 {
   margin-left: 250px;
-  width: 200px;  /* Set the width of the box */
-  padding: 20px; /* Padding inside the box */
+  width: 200px;
+  /* Set the width of the box */
+  padding: 20px;
+  /* Padding inside the box */
   margin-top: 90px;
-  border: 2px solid #007aff; /* Black border around the box */
-  text-align: center; /* Center the text inside the box */
+  border: 2px solid #007aff;
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
   border-radius: 9px;
 }
 
-p.B1{
+p.B1 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
-  font-size:0.8rem;
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
+  font-size: 0.8rem;
 }
-p.B2{
+
+p.B2 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
 }
-.B3{
-  color:#000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
+
+.B3 {
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
   margin-left: 260px;
   margin-top: 5px;
 
 }
-.aboutdev2{
+
+.aboutdev2 {
   margin-left: 530px;
-  width: 200px;  /* Set the width of the box */
-  padding: 20px; /* Padding inside the box */
+  width: 200px;
+  /* Set the width of the box */
+  padding: 20px;
+  /* Padding inside the box */
   margin-top: -105px;
-  border: 1px solid  #aaaaaa; /* Black border around the box */
-  text-align: center; /* Center the text inside the box */
+  border: 1px solid #a8a8a8;
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
   border-radius: 9px;
 }
 
-p.C1{
+p.C1 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
-  font-size:0.8rem;
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
+  font-size: 0.8rem;
 }
-p.C2{
+
+p.C2 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
 }
-.aboutdev3{
+
+.aboutdev3 {
   margin-left: 800px;
-  padding: 20px; /* Padding inside the box */
-  width: 200px;  /* Set the width of the box*/
+  padding: 20px;
+  /* Padding inside the box */
+  width: 200px;
+  /* Set the width of the box*/
   margin-top: -87px;
-  border: 1px solid #aaaaaa ; /* Black border around the box */
-  text-align: center; /* Center the text inside the box */
+  border: 1px solid #aaaaaa;
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
   border-radius: 9px;
 }
 
-p.D1{
+p.D1 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
-  font-size:0.8rem;
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
+  font-size: 0.8rem;
 }
-p.D2{
+
+p.D2 {
   text-align: left;
-  color: #000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
-} 
-.D3{
-  color:#000; /* Dark grey color for the text */
-  font-size: 10px; /* Set font size */
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
+}
+
+.D3 {
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
   margin-left: 810px;
   margin-top: 5px;
-  
+
 }
 
-hr{
-  color:#0f0909;
+hr {
+  color: #0f0909;
   /* margin-top: 25px; */
 }
 
-.dev4{
+.dev4 {
   color: #000;
   font-size: 14px;
   position: absolute;
   font-family: "SamsungOne", arial, sans-serif;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 150px;
 
 }
-.pic1{
-  margin-left: 150px;
-  margin-top: 0px;
 
+.pic1 {
+  margin-left: 150px;
+}
+.
+.main-box {
+  width: 30%;
+  /* Adjust the width as needed */
+  margin: 20px auto;
+  /* Center the box horizontally */
+  border: 1px solid rgb(184, 177, 177);
+  /* Adds a border around the main box */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  align-items: center;
+  margin-left: 520px;
+
+}
+main-box1{
+  justify-content: initial;
+}
+.image-container {
+  width: 30%;
+  /* Each box takes roughly one-third of the main box's width */
+  border: 1px solid #a8a8a8;
+  /* Adds a border around each image container */
+  padding: 5px;
+  box-sizing: border-box;
+  /* Includes padding and border in the width calculation */
+  row-gap: 5px;
+}
+
+.image-container img {
+  width: 100%;
+  /* Makes the image fill the container */
+  height: auto;
+  /* Maintains the aspect ratio of the image */
+  display: block;
+  /* Removes extra space below the image */
 }
