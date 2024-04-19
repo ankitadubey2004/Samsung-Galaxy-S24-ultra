@@ -65,8 +65,9 @@ nav .wrapper {
   font-size: 15px;
   border-bottom: #000; 
 }
+
 hr{
-  color: #333;
+  color: #fcf7f7;
 }
 .nav1{
   border-bottom: 3px solid black;
@@ -125,6 +126,7 @@ hr{
   width: 100%;
   position: relative;
 }
+
 hr{
   color: #333;
 }
@@ -181,7 +183,7 @@ button:hover {
 }
 .dev{
   color: #000;
-  font-size: 18px;
+  font-size: 14px;
   position: absolute;
   font-family: "SamsungOne", arial, sans-serif;
   margin-top: 40px;
@@ -198,7 +200,8 @@ button:hover {
   border-radius: 9px;
 }
 hr{
-  color: #6e6767;
+  color: #ffffff;
+  margin-top: 25px;
 }
 
 
@@ -214,18 +217,23 @@ p.b2{
   font-size: 10px; /* Set font size */
 }
 .b3{
-  color:#007aff; /* Dark grey color for the text */
+  color:#4e90d6; /* Dark grey color for the text */
   font-size: 10px; /* Set font size */
   margin-left: 250px;
-  margin-top: 7px;
+  margin-top: 10px;
 
 }
+hr{
+  color: #eceaea;
+  margin-top: 25px;
+}
+
 .dev1{
   color: #000;
   font-size: 14px;
   position: absolute;
   font-family: "SamsungOne", arial, sans-serif;
-  margin-top: 40px;
+  margin-top: 110px;
   margin-left: 150px;
 
 }
@@ -233,7 +241,7 @@ p.b2{
   margin-left: 250px;
   width: 200px;  /* Set the width of the box */
   padding: 20px; /* Padding inside the box */
-  margin-top: 20px;
+  margin-top: 90px;
   border: 2px solid #007aff; /* Black border around the box */
   text-align: center; /* Center the text inside the box */
   border-radius: 9px;
@@ -302,7 +310,27 @@ p.D2{
 .D3{
   color:#000; /* Dark grey color for the text */
   font-size: 10px; /* Set font size */
-  margin-left: 800px;
+  margin-left: 810px;
   margin-top: 5px;
+  
+}
+
+hr{
+  color:#0f0909;
+  /* margin-top: 25px; */
+}
+
+.dev4{
+  color: #000;
+  font-size: 14px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+.pic1{
+  margin-left: 150px;
+  margin-top: 0px;
 
 }
