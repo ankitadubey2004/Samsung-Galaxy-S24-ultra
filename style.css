@@ -231,7 +231,7 @@ button:hover {
 }
 
 hr {
-  color: #ffffff;
+  color:rgb(240, 227, 227) ;
   margin-top: 25px;
 }
 
@@ -392,12 +392,12 @@ p.D2 {
 }
 
 hr {
-  color: #0f0909;
+  color: #808080	;
   /* margin-top: 25px; */
 }
 
 .dev4 {
-  color: #000;
+  color:#000;
   font-size: 14px;
   position: absolute;
   font-family: "SamsungOne", arial, sans-serif;
@@ -409,39 +409,113 @@ hr {
 .pic1 {
   margin-left: 150px;
 }
-.main-box {
+ .main-box {
   width: 30%;
-  /* Adjust the width as needed */
-  /* Center the box horizontally */
-  border : 2px solid  #a8a8a8;/* Adds a border around the main box */
+  margin: 20px auto;
+  border: 1px solid #aaaaaa;
   padding: 10px;
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center-align children horizontally */
-  margin-left: 800px;
   margin-top: 30px;
-  justify-content: center;
+  margin-left: 800px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
 }
+
 .text-container {
-  text-align: center; /* Center the text */
-  margin-bottom: 20px; /* Adds space between the text and the image containers */
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .images-container {
-  width: 100%; /* Full width to align with the text container */
-  display: flex; /* Uses Flexbox to layout the images horizontally */
-  justify-content: space-around; /* Distributes space evenly around the images */
-}
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: flex-start; Aligns items at the top of each container */
+ }
 
 .image-container {
-  width: 30%; /* Each box takes roughly one-third of the images container's width */
-  border: 1px solid  #a8a8a8; /* Adds a border around each image container */
-  box-sizing: border-box; /* Includes padding and border in the width calculation */
-  padding: 2px;
+  width: 30%;
+  border: 1px solid #666; 
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+   transition: border 0.3s ease; 
+  border-radius: 15px;
   gap: 5px;
 }
 
-.image-container img {
+.des{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 12px; 
+    color: #1f1d1d;
+    padding-top: 5px;
+}
 
-  display: block; /* Removes extra space below the image */
+
+#highlighted {
+  border: 1px solid #007bff;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container:hover {
+  border: 2px solid #007bff; 
+}
+.dev5{
+  color:#000;
+  font-size: 14px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.delivery {
+    margin-left: 450px;
+    width: 700px;
+    height: auto;
+    /* Set the width of the box */
+    padding: 20px;
+    /* Padding inside the box */
+    margin-top: 170px;
+    border: 1px solid #aaaaaa;
+    border-radius: 9px;
+ }
+  
+
+ .delivery #searchInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: -8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.delivery #searchInput:focus {
+  border: dashed;
+  outline: none;
+}
+
+.delivery #searchResults {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.delivery p{
+  margin-left: 5px;
+  margin-top: -15px;
+  color: #000;
+  font-size: 8px;
 }

@@ -47,3 +47,33 @@ function moveSlide(direction) {
 document.getElementById('prev').addEventListener('click', () => moveSlide(-1));
 document.getElementById('next').addEventListener('click', () => moveSlide(1));
 
+document.addEventListener('DOMContentLoaded', function() {
+    const containers = document.querySelectorAll('.image-container');
+    const highlighted = document.getElementById('highlighted');
+
+    containers.forEach(container => {
+        container.addEventListener('mouseenter', function() {
+            if (this !== highlighted) {
+                highlighted.style.border = '1px solid  #a8a8a8;'; // Grey out the highlighted container
+            }
+        });
+        container.addEventListener('mouseleave', function() {
+            highlighted.style.border = '2px solid #007bff'; // Return to blue when not hovering
+        });
+    });
+});
+document.getElementById('searchInput').addEventListener('keyup', function(event) {
+    event.preventDefault();
+    if (event.key === 'Enter') {
+        search(this.value);
+    }
+});
+
+function search(query) {
+    if (query.trim() === '') {
+        document.getElementById('searchResults').innerHTML = 'Please enter a search query.';
+        return;
+    }
+    document.getElementById('searchResults').innerHTML = 'Results for: ' + query;
+}
+
