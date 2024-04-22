@@ -65,15 +65,16 @@ nav .wrapper {
   align-items: center;
   gap: 20px;
   height: 150px;
-
   padding: 8px 15px;
   color: #000;
   font-size: 15px;
   border-bottom: #000;
+  cursor: pointer;
+
 }
 
 hr {
-  color: #fcf7f7;
+  color:  rgb(201, 201, 201);
 }
 
 .nav1 {
@@ -91,7 +92,7 @@ hr {
 }
 
 .AI2 {
-  color: rgb(58, 52, 52);
+  color:  rgb(15, 14, 14);
 }
 
 #countdown {
@@ -146,7 +147,7 @@ hr {
 }
 
 hr {
-  color: #333;
+  color:  rgb(201, 201, 201);
 }
 
 
@@ -171,7 +172,7 @@ hr {
   position: absolute;
   top: 20%;
   padding: 5vh 1vw;
-  background: #ffffff4f;
+  background:  rgb(201, 201, 201);
   color: #0000007b;
   text-decoration: none;
   font-weight: 600;
@@ -183,7 +184,7 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #fff;
+  background-color:  rgb(201, 201, 201);
   border: none;
   color: #333;
   font-size: 1rem;
@@ -227,11 +228,13 @@ button:hover {
   /* Black border around the box */
   text-align: center;
   /* Center the text inside the box */
-  border-radius: 9px;
+  border-radius: 3px;
+  cursor: pointer;
+
 }
 
 hr {
-  color:rgb(240, 227, 227) ;
+  color: rgb(201, 201, 201);
   margin-top: 25px;
 }
 
@@ -264,7 +267,7 @@ p.b2 {
 }
 
 hr {
-  color: #eceaea;
+  color:  rgb(201, 201, 201);
   margin-top: 25px;
 }
 
@@ -289,7 +292,9 @@ hr {
   /* Black border around the box */
   text-align: center;
   /* Center the text inside the box */
-  border-radius: 9px;
+  border-radius: 3px;
+  cursor: pointer;
+
 }
 
 p.B1 {
@@ -330,7 +335,9 @@ p.B2 {
   /* Black border around the box */
   text-align: center;
   /* Center the text inside the box */
-  border-radius: 9px;
+  border-radius: 3px;
+  cursor: pointer;
+
 }
 
 p.C1 {
@@ -357,11 +364,13 @@ p.C2 {
   width: 200px;
   /* Set the width of the box*/
   margin-top: -87px;
-  border: 1px solid #aaaaaa;
+  border: 1px solid  rgb(201, 201, 201);
   /* Black border around the box */
   text-align: center;
   /* Center the text inside the box */
-  border-radius: 9px;
+  border-radius: 3px;
+  cursor: pointer;
+
 }
 
 p.D1 {
@@ -392,7 +401,7 @@ p.D2 {
 }
 
 hr {
-  color: #808080	;
+  color: rgb(201, 201, 201);
   /* margin-top: 25px; */
 }
 
@@ -412,14 +421,14 @@ hr {
  .main-box {
   width: 30%;
   margin: 20px auto;
-  border: 1px solid #aaaaaa;
+  border: 1px solid  rgb(201, 201, 201);
   padding: 10px;
   display: flex;
   margin-top: 30px;
   margin-left: 800px;
   flex-direction: column;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 3px;
 }
 
 .text-container {
@@ -438,15 +447,17 @@ hr {
 
 .image-container {
   width: 30%;
-  border: 1px solid #666; 
+  border: 1px solid rgb(201, 201, 201);
   padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
    transition: border 0.3s ease; 
-  border-radius: 15px;
-  gap: 5px;
+   border-radius: 3px;
+   gap: 5px;
+  cursor: pointer;
+
 }
 
 .des{
@@ -479,43 +490,243 @@ hr {
   margin-left: 150px;
 }
 .delivery {
-    margin-left: 450px;
+    margin-left: 350px;
     width: 700px;
     height: auto;
     /* Set the width of the box */
     padding: 20px;
     /* Padding inside the box */
-    margin-top: 170px;
-    border: 1px solid #aaaaaa;
-    border-radius: 9px;
+    margin-top: 160px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 3px;
+    cursor: pointer;
+
  }
   
 
  .delivery #searchInput {
   width: 100%;
   padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  font-size: 18px;
+  color: #000;
+  border: 1px solid  rgb(201, 201, 201);
+  border-radius: 3px;
   margin-left: -8px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .delivery #searchInput:focus {
-  border: dashed;
+  border: 2px dashed black;
   outline: none;
 }
 
 .delivery #searchResults {
   margin-top: 10px;
   padding: 10px;
-  background: #f1f1f1;
-  border-radius: 5px;
+  color: rgb(36, 34, 34);
+  border-radius: 3px;
 }
 .delivery p{
-  margin-left: 5px;
-  margin-top: -15px;
-  color: #000;
-  font-size: 8px;
+  margin-left: 2px;
+  margin-top: -34px;
+  color: rgb(36, 34, 34);
+  font-size:12px;
 }
+.dev6{
+  color:#000;
+  font-size: 12px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-left: 130px;
+  margin-top: 60px;
+
+}
+.details {
+  margin-left: 250px;
+  margin-top: -20px;
+  font-size: 13px;
+  color: rgb(66, 63, 63);
+}
+.aboutdev4 {
+  margin-left: 370px;
+  padding: 10px;
+  /* Padding inside the box */
+  width: 300px;
+  /* Set the width of the box*/
+  margin-top: 80px;
+  border: 1px solid  rgb(201, 201, 201);
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.aboutdev4 .B41 {
+  text-align: left;
+  margin-top: 5px;
+  color: #000;
+  /* Dark grey color for the text */
+  font-size: 11px;
+}
+.aboutdev4 .B42 {
+  text-align: right;
+  color:  #585757;
+  margin-top: -14px;
+
+  /* Dark grey color for the text */
+  font-size: 9px;
+  /* Set font size */
+}
+
+.aboutdev4 .B43{
+  text-align: right;
+  color: #007bff;
+  margin-top: 2px;
+  /* Dark grey color for the text */
+  font-size: 10px;
+  /* Set font size */
+}
+.aboutdev5 {
+    margin-left: 720px;
+    padding: 15px;
+    width: 300px;
+    margin-top: -50px;
+    border: 1px solid rgb(201, 201, 201);
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.aboutdev5 .B44{
+  text-align: left;
+  margin-top: 5px;
+  color: #1a1717;
+  /* Dark grey color for the text */
+  font-size: 11px;
+}
+.aboutdev4:focus{
+  outline: 2px dashed black;
+}
+.aboutdev5:hover {
+  border: 2px solid #007bff;
+}
+hr{
+ color:  rgb(201, 201, 201);
+}
+.dev7{
+  color:#000;
+  font-size: 12px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.details1 {
+  margin-left: 250px;
+  margin-top: -18px;
+  font-size: 12px;
+  color: rgb(36, 34, 34);
+}
+.details2 {
+  margin-left: 1000px;
+  margin-top: -20px;
+  font-size: 13px;
+  color: rgb(36, 34, 34);
+  border-bottom: 2px solid black;
+}
+.details3 {
+  margin-left: 270px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: rgb(36, 34, 34);
+}
+.aboutdev6 {
+  margin-left: 370px;
+  width: 260px;
+  /* Set the width of the box */
+  padding: 20px;
+  /* Padding inside the box */
+  margin-top: 120px;
+  border: 1px solid   rgb(201, 201, 201);
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
+  border-radius: 3px;
+  cursor: pointer;
+}
+p.six1 {
+  text-align: left;
+  color: #000;
+  font-size: 13px;
+}
+p.six2 {
+  text-align: left;
+  color: #3b3838;
+  font-size: 10px;
+}
+p.six3 {
+  text-align: left;
+  color: #3b3838;
+  font-size: 10px;
+}
+.aboutdev7 {
+  margin-left: 700px;
+  width: 200px;
+  padding: 35px;
+  margin-top: -115px;
+  border: 1px solid #a8a8a8;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+p.seven1 {
+  text-align: left;
+  color: #000;
+  font-size: 10px;
+  font-size: 0.8rem;
+}
+p.seven2 {
+  text-align: left;
+  color: #000;
+  font-size: 10px;
+}
+p.seven3 {
+  text-align: left;
+  color: #000;
+  font-size: 10px;
+}
+
+.aboutdev8 {
+  margin-left: 990px;
+  padding: 30px;
+  /* Padding inside the box */
+  width: 200px;
+  /* Set the width of the box*/
+  margin-top: -115px;
+  border: 1px solid  rgb(201, 201, 201);
+  /* Black border around the box */
+  text-align: center;
+  /* Center the text inside the box */
+  border-radius: 3px;
+  cursor: pointer;
+}
+p.eight1 {
+  text-align: left;
+  color: #000;
+  font-size: 10px;
+  font-size: 0.8rem;
+}
+p.eight2 {
+  text-align: left;
+  color: #000;
+  font-size: 10px;
+}
+p.eight3 {
+  text-align: left;
+  color: #000;
+  font-size: 10px;
+}
+
+

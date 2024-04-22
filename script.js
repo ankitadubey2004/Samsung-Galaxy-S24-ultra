@@ -1,5 +1,5 @@
 function countdown() {
-    const countToDate = new Date('April 21, 2024 23:59:59').getTime();
+    const countToDate = new Date('April 26, 2024 23:59:59').getTime();
     const now = new Date().getTime();
     const difference = countToDate - now;
 
@@ -76,4 +76,11 @@ function search(query) {
     }
     document.getElementById('searchResults').innerHTML = 'Results for: ' + query;
 }
+document.addEventListener('DOMContentLoaded', function () {
+    const box = document.querySelector('.aboutdev4');
+    box.tabIndex = 0; // Make the div focusable
+    box.addEventListener('click', function() {
+        this.focus(); // Focus the div when it is clicked
+    });
+});
 
