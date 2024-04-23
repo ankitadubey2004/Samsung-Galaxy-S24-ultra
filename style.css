@@ -739,5 +739,227 @@ p.ten1 {
   font-family: "SamsungOne", arial, sans-serif;
   margin-top: 20px;
   margin-left: 150px;
+}
+.aboutdev11 {
+  margin-left: 360px;
+  font-size: 45px;
+  color: #000;
+  margin-top: 90px;
+}
+.aboutdev11 .A11 {
+  margin-left: 70px;
+  font-size: 10px;
+  color: #000;
+  margin-top: -48px;
+}
+.aboutdev11 .under2 {
+  margin-left: 70px;
+  color: #0a0d0f; 
+   font-size: 10px;
+  text-decoration:underline;
 
 }
+
+.aboutdev12 {
+  margin-left: 900px;
+  font-size: 45px;
+  color: #000;
+  margin-top: -50px;
+}
+.aboutdev12 .dev12 {
+  margin-left: 70px;
+  font-size: 10px;
+  color: #000;
+  margin-top: -48px;
+}
+.aboutdev13 {
+  margin-left: 360px;
+  font-size: 45px;
+  color: #000;
+  margin-top: 90px;
+}
+.aboutdev13 .dev13 {
+  margin-left: 85px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev13 .under {
+  margin-left: 85px;
+  color: #007bff; 
+   font-size: 10px;
+  text-decoration:underline;
+
+}
+.aboutdev14 {
+  margin-left: 900px;
+  font-size: 45px;
+  color: #000;
+  margin-top: -70px;
+}
+.aboutdev14 .dev14 {
+  margin-left: 70px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev14 .under1 {
+  margin-left: 70px;
+  color: #007bff; 
+  font-size: 10px;
+  /* border-bottom: 1px solid #007bff; */
+  text-decoration:underline;
+}
+.aboutdev15 {
+  margin-left: 360px;
+  font-size: 45px;
+  color: #000;
+  margin-top: 90px;
+}
+.aboutdev15 .dev15 {
+  margin-left: 85px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev15 .under3 {
+  margin-left: 85px;
+  color: #007bff; 
+   font-size: 10px;
+  text-decoration:underline;
+}
+.aboutdev16 {
+  margin-left: 900px;
+  font-size: 45px;
+  color: #000;
+  margin-top: -70px;
+}
+.aboutdev16 .dev16 {
+  margin-left: 70px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev16 .under4{
+  margin-left: 70px;
+  color: #007bff; 
+  font-size: 10px;
+  /* border-bottom: 1px solid #007bff; */
+  text-decoration:underline;
+}
+.aboutdev17{
+  margin-left: 360px;
+  font-size: 45px;
+  color: #000;
+  margin-top: 90px;
+}
+.aboutdev17 .dev17 {
+  margin-left: 85px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev17 .under5 {
+  margin-left: 85px;
+  color: #007bff; 
+   font-size: 10px;
+  text-decoration:underline;
+}
+.aboutdev18 {
+  margin-left: 900px;
+  font-size: 45px;
+  color: #000;
+  margin-top: -70px;
+}
+.aboutdev18 .dev18 {
+  margin-left: 70px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev18 .under6{
+  margin-left: 70px;
+  color: #007bff; 
+  font-size: 10px;
+  /* border-bottom: 1px solid #007bff; */
+  text-decoration:underline;
+}
+.aboutdev19{
+  margin-left: 360px;
+  font-size: 45px;
+  color: #000;
+  margin-top: 90px;
+}
+.aboutdev19 .dev19 {
+  margin-left: 85px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev19 .under7 {
+  margin-left: 414px;
+  color: #007bff;
+  font-size: 10px;
+  text-decoration: underline;
+  margin-top: -14px;
+}
+
+.aboutdev19 .under8 {
+  margin-left: 85px;
+  color: #007bff; 
+   font-size: 10px;
+  text-decoration:underline;
+}
+ .aboutdev20{
+  margin-left: 900px;
+  font-size: 45px;
+  color: #000;
+  margin-top: -50px;
+}
+.aboutdev20 .dev20{
+  margin-left: 70px;
+  font-size: 10px;
+  color: #353232;
+  margin-top: -48px;
+} 
+.aboutdev21{
+  margin-left: 360px;
+  font-size: 45px;
+  color: #000;
+  margin-top: 90px;
+}
+.aboutdev21 .dev21 {
+  margin-left: 85px;
+  color: #000;
+  font-size: 10px;
+  margin-top: -48px;
+}
+.aboutdev21 .under9 {
+  margin-left: 414px;
+  color: #007bff;
+  font-size: 10px;
+  text-decoration: underline;
+  margin-top: -14px;
+}
+.aboutdev21 .under10 {
+  margin-left: 85px;
+  color: #000;
+  font-size: 10px;
+}
+
+.aboutdev21 .under11 {
+  margin-left: 245px;
+  color: #007bff;
+  font-size: 10px;
+  text-decoration: underline;
+  margin-top: -12px;
+}
+.dev9 {
+  color: #000;
+  font-size: 14px;
+  position: absolute;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
