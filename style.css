@@ -1348,4 +1348,51 @@ margin: 0; /* No bottom margin to ensure no space between boxes */
 .boxi3.active {
   border: 2px dashed black; /* When active, the border becomes dashed black */
 }
+#footer-table{
+  width: 96%;
+  display: inline-table;
+  margin-inline-start: 1%;
+  margin-inline-end: 1%;
+}
 
+#footer-table tr{
+  position: relative;
+  left: 3%;
+}
+
+#footer-table td{
+  padding-bottom: 5px;
+  font-size: 15px;
+  left: 2%;
+  border-left: 1px solid lightgrey;
+}
+
+#footer-table td:first-child{
+  border-left: 0;
+}
+
+#footer-table tr:first-child{
+  border-top: 1px solid lightgrey;
+}
+
+#footer-table tr:last-child{
+  border-bottom: 1px solid lightgrey;
+}
+
+#footer-para{
+  position: relative;
+  margin: 2%;
+  font-size: small;
+}
+
+#foot{
+  font-size: small;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul i{
+  font-size: 20px;
+}
