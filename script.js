@@ -83,4 +83,35 @@ document.addEventListener('DOMContentLoaded', function () {
         this.focus(); // Focus the div when it is clicked
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const box = document.getElementById('clickableBox');
 
+    box.addEventListener('click', function() {
+        // Toggle the 'active' class on click
+        this.classList.toggle('active');
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const box = document.getElementById('clickableBox1');
+
+    box.addEventListener('click', function() {
+        // Toggle the 'active' class on click
+        this.classList.toggle('active');
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const box = document.getElementById('clickableBox2');
+
+    box.addEventListener('click', function() {
+        // Toggle the 'active' class on click
+        this.classList.toggle('active');
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const box = document.getElementById('clickableBoxi3');
+
+    box.addEventListener('click', function() {
+        // Toggle the 'active' class on click
+        this.classList.toggle('active');
+    });
+});
