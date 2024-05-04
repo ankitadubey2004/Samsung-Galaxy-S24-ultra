@@ -60,7 +60,7 @@ margin-left: 4px;
   font-size: 15px;
   border-bottom: #000;
   cursor: pointer;
-
+margin-top: -70px;
 }
 
 hr {
@@ -1212,7 +1212,7 @@ margin-top: -13px;
     font-size: 11px;
     border: none;
     border-radius: 8px;
-    margin-top: 3570px;
+    margin-top: 3580px;
     margin-left: 2px;
     text-align: center;
 }
