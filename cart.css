@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "SamsungOne";
+    src: url(font/SamsungOne-400.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Samsung";
+    src: url(Font/samsungsharpsans-medium.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+ font-family: "Samsung", sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #fff;
+    padding: 5px 5px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.logo img {
+    height: 50px;
+}
+.navbar img {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.cart h1{
+    margin-left: 350px;
+    margin-top: 150px;
+    font-size: 24px;
+    color: #000;
+}
+
+
+button{
+    margin-left: 300px;
+    margin-top: 60px;
+    color: #000;
+    background-color: white;
+    font-size: 13px;
+    width: 25%;
+    height: 35px;
+    border-radius: 20px;
+}
