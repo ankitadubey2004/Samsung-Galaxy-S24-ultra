@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="/">
                 <img src="./Assets/logo.jpg" width="auto" alt="Samsung Galaxy S24 Logo" />
             </a>
         </div>
@@ -25,9 +25,11 @@
         <h3>login with mobile to become a member</h3>
         <input type="text" class="nav-search-input" placeholder="Mobile Number/Email Id">
         <hr>
-        <input type="checkbox" name="agree" id="checked"> I agree to receive personalized offers and updates <br>
-        <p class="check1">You can opt out anytime by visiting My Page</p>
-        
+        <div class="checkbox-container">
+            <input type="checkbox" id="myCheckbox">
+            <label for="myCheckbox">I agree to receive personalized offers and updates </label>
+            <div class="description">You can opt out anytime by visiting My Page  </div>
+        </div>
         <button class="but1">Login via OTP</button>
         <button class="but2"> Login via Samsung account</button>
         <p class="but3">By logging-in, I consent and accept the Smart club Program and Enrollment </p>

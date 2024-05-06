@@ -75,17 +75,25 @@
     width: 520px;
     margin-left: 380px;
 }
-#checked{
-    margin-left: 400px;
-    color: #070606;
-    font-size:11px ;
-    margin-top: 18px;
+.checkbox-container {
+  margin-left: 400px;
 }
-.login .check1{
-    margin-left: 400px;
-    color: #070606;
-    font-size:14px ;
 
+input[type="checkbox"] {
+  align-self: flex-start; /* Aligns the checkbox at the start of the container */
+}
+
+label {
+ /* Space between the checkbox and the label */
+  font-size: 13px;
+  color: #000;
+
+}
+
+.description {
+  font-size: 13px;
+  color: #000;
+  margin-top: 2px; /* Space between the label and the description text */
 }
 .but1 {
     padding: 10px 20px;
@@ -99,6 +107,7 @@
     margin-left: 470px;
     height: auto;
     width: 25%;
+    cursor: pointer;
 }
 
 .but2 {
@@ -111,7 +120,11 @@
     font-size: 13px;
     margin-top: 30px;
     margin-left: 470px;
-    width: 25%;}
+    width: 25%;
+    cursor: pointer;
+
+  }
+    
 .but3{
     margin-left: 315px;
     font-size: 13px;
